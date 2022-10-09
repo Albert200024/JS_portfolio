@@ -1,0 +1,217 @@
+@media screen and (max-width:1432px){
+    header{
+        padding: 0 !important;
+    }
+
+    .section{
+        padding: 7rem 11rem;
+    }
+    // Contact
+    .contact-content-con{
+        flex-direction: column;
+        .right-contact{
+             margin-left: 0;
+             margin-top: 2.5rem;
+        }
+    }
+}
+
+@media screen and (max-width:1070px){
+     .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            padding-top: 2.5rem;
+        }
+     }
+
+     .portfolios{
+        grid-template-columns: 1fr 1fr;
+     }
+
+     .blogs{
+        grid-template-columns: 1fr 1fr;
+     }
+
+     .main-title{
+         h2{
+            font-size: 4rem;
+            span{
+                font-size: 4rem;
+            }
+            .bg-text{
+                font-size: 5.5rem;
+            }
+         }
+     }
+}
+
+@media screen and (max-width:970px){
+    .section{
+        padding: 7rem 8rem;
+    }
+    header{
+        padding: 0;
+    }
+
+    .main-title{
+        h2{
+            font-size: 2rem;
+            span{
+                font-size: 2.5rem;
+            }
+            .bg-text{
+                font-size: 3rem;
+            }
+        }
+    }
+
+    // Header
+    .header-content{
+        grid-template-columns:1fr;
+        padding-bottom: 6rem !important;
+    }
+
+    header .right-header{
+        padding: 0 !important;
+    }
+
+    .left-header{
+        .h-shape{
+             display:none;
+        }
+    }
+    
+    .right-header{
+        grid-row: 1;
+        width: 90%;
+        margin:0 auto;
+
+        .name{
+            font-size:2.5rem !important;
+        }
+    }
+
+    .header-content .left-header .image {
+        margin:0 auto;
+        width:90%
+    }
+    
+    .theme-btn{
+        width: 50px;
+        height: 50px;
+     }
+
+     .controlls{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content:center;
+        left:50%;
+        transform: translateX(-50%);
+        width:100%;
+        background-color:var(--color-grey-5);
+        .control{
+           margin: .5rem 1rem;
+        }
+  }
+}
+
+@media screen and (max-width:700px) {
+    .section{
+        padding: 7rem 3rem;
+    }
+
+    .about-stats {
+        .progress-bars{
+             grid-template-columns: 1fr;
+        }
+    }
+
+    .main-title{
+        h2{
+            font-size: 3rem;
+            span{
+                font-size: 3rem;
+            }
+            .bg-text{
+                font-size: 4rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px){
+    // Global style
+    .main-title{
+        h2{
+            font-size: 2rem;
+            span{
+                font-size: 2.5rem;
+            }
+            .bg-text{
+                font-size: 3rem;
+            }
+        }
+    }
+    // About
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+              grid-template-columns:1fr;
+              padding-top:2.5rem;
+        }
+        .left-about{
+            padding-left: 0;
+            P{
+                padding-left: 0;
+            }
+        }
+    }
+
+    .timLine{
+      grid-template-columns: 1fr;
+      padding-bottom: 6rem;
+    }
+
+    .about-stats{
+        .progress-bars{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    // Portfolio
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    // Blogs
+    .blogs{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    // Contact
+    .contact-content-con{
+        flex-direction: column;
+        .right-contact{
+            margin-left: 0;
+            margin-top: 2.5rem;
+        }
+    }
+
+    .submit-btn{
+        a {
+            margin-bottom: 60px;
+        }
+    }
+
+    .contact-content-con .right-contact  .i-c-2{
+        flex-direction: column;
+    }
+
+    .contact-content-con .right-contact .i-c-2 :last-child{
+        margin-top: 1.5rem;
+        margin-left: 0!important;
+    }
+}
