@@ -241,11 +241,11 @@
 
 @media screen and (max-width:400px){
     .controlls .control {
-        margin: 0.5rem 0.5rem;
+        margin: 0.2rem 0.2rem;
     }
 }
 
-@media screen and (max-width:333px){
+@media screen and (max-width:350px){
     .controlls {
        display: grid;
        grid-template-columns: 0fr 0fr 0fr;
